@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 load_dotenv()
 
-st.title("RAG Based Agent For Stock Insights")
+st.title("RAG Based Agent For Wealth and Tax Optimization")
 # Load and read the PDF file "linear.pdf" using PyPDFLoader.
 loader = PyPDFLoader("KnowledgeBase.pdf")
 data = loader.load()
