@@ -14,7 +14,7 @@ load_dotenv()
 
 st.title("RAG Based Agent For Stock Insights")
 # Load and read the PDF file "linear.pdf" using PyPDFLoader.
-loader = PyPDFLoader("KB.pdf")
+loader = PyPDFLoader("KnowledgeBase.pdf")
 data = loader.load()
 # Split the loaded PDF data into smaller chunks using RecursiveCharacterTextSplitter.
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000)
