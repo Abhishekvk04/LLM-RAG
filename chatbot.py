@@ -12,9 +12,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 load_dotenv()
 
-st.title("RAG Based Agent For Wealth and Tax Optimization")
+st.title("Feel free to discuss anything about HPV")
 # Load and read the PDF file "linear.pdf" using PyPDFLoader.
-loader = PyPDFLoader("KnowledgeBase.pdf")
+loader = PyPDFLoader("HPV.pdf")
 data = loader.load()
 # Split the loaded PDF data into smaller chunks using RecursiveCharacterTextSplitter.
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000)
